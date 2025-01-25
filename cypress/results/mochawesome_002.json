@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2025-01-25T13:43:50.043Z",
-    "end": "2025-01-25T13:43:51.649Z",
-    "duration": 1606,
+    "start": "2025-01-25T13:43:54.571Z",
+    "end": "2025-01-25T13:43:55.515Z",
+    "duration": 944,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,17 +18,17 @@
   },
   "results": [
     {
-      "uuid": "2c9f0cdd-d174-4fda-9566-a441143e45dd",
+      "uuid": "1a584e55-4c60-43ab-a9f1-cb39141bf13e",
       "title": "",
-      "fullFile": "cypress\\e2e\\spec.cy.js",
-      "file": "cypress\\e2e\\spec.cy.js",
+      "fullFile": "cypress\\e2e\\subFolder2\\spec.cy.js",
+      "file": "cypress\\e2e\\subFolder2\\spec.cy.js",
       "beforeHooks": [],
       "afterHooks": [],
       "tests": [],
       "suites": [
         {
-          "uuid": "8c804c14-5517-4185-bd5c-3379fdebf03f",
-          "title": "template spec 3",
+          "uuid": "661b919a-0017-4f99-b2c1-6b57421b5411",
+          "title": "template spec 2",
           "fullFile": "",
           "file": "",
           "beforeHooks": [],
@@ -36,9 +36,9 @@
           "tests": [
             {
               "title": "passes",
-              "fullTitle": "template spec 3 passes",
+              "fullTitle": "template spec 2 passes",
               "timedOut": null,
-              "duration": 292,
+              "duration": 172,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "cy.visit(\"https://example.cypress.io\");",
               "err": {},
-              "uuid": "0a3720ef-43a3-4bfd-a3f2-c3c8e22edb2b",
-              "parentUUID": "8c804c14-5517-4185-bd5c-3379fdebf03f",
+              "uuid": "2a54ea44-8d5b-4a2c-8811-dae063ce560b",
+              "parentUUID": "661b919a-0017-4f99-b2c1-6b57421b5411",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "0a3720ef-43a3-4bfd-a3f2-c3c8e22edb2b"
+            "2a54ea44-8d5b-4a2c-8811-dae063ce560b"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 292,
+          "duration": 172,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

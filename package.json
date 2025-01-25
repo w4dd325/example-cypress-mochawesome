@@ -14,7 +14,9 @@
     "mochawesome-merge": "^4.3.0",
     "mochawesome-report-generator": "^6.2.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "xmlbuilder": "^15.1.1"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC"

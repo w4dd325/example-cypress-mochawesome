@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Mochawesome Tests" tests="3" failures="0" errors="0" time="5.47">
+  <testcase classname="template spec 1" name="template spec 1 - passes" time="0.18"/>
+  <testcase classname="template spec 2" name="template spec 2 - passes" time="0.17"/>
+  <testcase classname="template spec 3" name="template spec 3 - passes" time="0.29"/>
+</testsuite>
