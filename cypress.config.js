@@ -1,15 +1,3 @@
-# example-cypress-
-An example project showing how to setup Mochawesome
-
-Assuming you already have Cypress installed... 
-
-## Install the foillowing packages:
-```npm install mochawesome --save-dev```
-```mochawesome-merge```
-```mochawesome-report-generator```
-
-## Configure the config
-```Javascript
 import { defineConfig } from "cypress";
 import { exec } from 'child_process';
 import { promisify } from 'util';
@@ -47,17 +35,3 @@ export default defineConfig({
     }
   }
 });
-```
-
-## Setup a script to run the test with the report
-```JSON
-"scripts": {
-    "test-with-report": "(cypress run --reporter mochawesome || true) && npx mochawesome-merge ./cypress/results/*.json -o mochawesome.json && npx marge mochawesome.json",
-    "clean:cypress": "if exist cypress\\results rmdir /s /q cypress\\results && if exist mochawesome-report rmdir /s /q mochawesome-report && if exist mochawesome.json del mochawesome.json"
-  },
-```
-
-## Run the test
-```bash
-npm run test-with-report
-```
