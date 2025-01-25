@@ -4,9 +4,9 @@ An example project showing how to setup Mochawesome
 Assuming you already have Cypress installed... 
 
 ## Install the foillowing packages:
-```npm install mochawesome --save-dev```
-```mochawesome-merge```
-```mochawesome-report-generator```
+```npm install mochawesome --save-dev```  
+```mochawesome-merge```  
+```mochawesome-report-generator```  
 
 ## Configure the config
 ```Javascript
@@ -61,3 +61,4 @@ export default defineConfig({
 ```bash
 npm run test-with-report
 ```
+![image](https://github.com/user-attachments/assets/e35605e1-1fa3-453a-8d0c-b5f968027564)
