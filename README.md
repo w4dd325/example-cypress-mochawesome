@@ -5,8 +5,8 @@ Assuming you already have Cypress installed...
 
 ## Install the foillowing packages:
 ```npm install mochawesome --save-dev```  
-```mochawesome-merge```  
-```mochawesome-report-generator```  
+```npm install mochawesome-merge --save-dev```  
+```npm install mochawesome-report-generator --save-dev```  
 
 ## Configure the config
 ```Javascript
